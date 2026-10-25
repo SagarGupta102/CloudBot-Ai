@@ -6,3 +6,9 @@ __pycache__/
 !.env.example
 instance/
 .pytest_cache/
+# Local editor settings
+.vscode/
+
+# Old AWS deployment files
+cloudbot-ai-lambda.zip
+lambda-deployment/

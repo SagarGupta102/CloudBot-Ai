@@ -1,0 +1,28 @@
+
+[
+  {
+    "question": "What is cloud computing?",
+    "keywords": ["cloud computing", "cloud", "definition"],
+    "answer": "Cloud computing is the delivery of computing services such as servers, storage, databases, and software over the internet."
+  },
+  {
+    "question": "What is AWS?",
+    "keywords": ["aws", "amazon web services"],
+    "answer": "Amazon Web Services (AWS) is a cloud platform that offers services for computing, storage, databases, networking, and more."
+  },
+  {
+    "question": "What is cloud storage?",
+    "keywords": ["cloud storage", "storage"],
+    "answer": "Cloud storage lets you store and access data on remote servers over the internet instead of relying only on your local computer."
+  },
+  {
+    "question": "What is a virtual machine?",
+    "keywords": ["virtual machine", "vm"],
+    "answer": "A virtual machine is a software-based computer that runs an operating system and applications using virtualized hardware."
+  },
+  {
+    "question": "What is the difference between IaaS, PaaS, and SaaS?",
+    "keywords": ["iaas", "paas", "saas", "cloud service models"],
+    "answer": "IaaS provides virtualized infrastructure, PaaS provides a platform for building and deploying applications, and SaaS provides ready-to-use software over the internet."
+  }
+]

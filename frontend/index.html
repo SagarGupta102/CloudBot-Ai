@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudBot AI | Cloud Learning Assistant</title>
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+    <div class="app-container">
+        <header class="chat-header">
+            <div class="message-avatar robot-avatar header-avatar" aria-hidden="true"></div>
+            <div>
+                <h1>CloudBot AI</h1>
+                <p>Your Cloud Computing Learning Assistant</p>
+            </div>
+            <span class="status-indicator">Online</span>
+        </header>
+
+        <main class="chat-container">
+            <section class="welcome-section">
+                <h2>Welcome to CloudBot AI!</h2>
+                <p>Ask me anything about cloud computing.</p>
+            </section>
+
+            <section
+                id="chat-messages"
+                class="chat-messages"
+                aria-live="polite"
+                aria-label="Chat messages"
+            >
+                <div class="message bot-message">
+                    <div class="message-avatar robot-avatar" aria-hidden="true"></div>
+                    <div class="message-content">
+                        Hello! I'm CloudBot AI. I can help you learn
+                        about AWS, cloud storage, virtual machines,
+                        and cloud service models. What would you like
+                        to learn today?
+                    </div>
+                </div>
+            </section>
+
+            <div class="suggestion-section">
+                <p>Try asking:</p>
+                <button type="button" class="suggestion"
+                    data-question="What is cloud computing?">
+                    What is cloud computing?
+                </button>
+                <button type="button" class="suggestion"
+                    data-question="What is AWS?">
+                    What is AWS?
+                </button>
+                <button type="button" class="suggestion"
+                    data-question="What is a virtual machine?">
+                    What is a virtual machine?
+                </button>
+            </div>
+
+            <form id="chat-form" class="chat-input-area">
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Ask your cloud computing question..."
+                    aria-label="Your question"
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit" id="send-button">Send ➤</button>
+            </form>
+
+            <p class="footer-note">
+                CloudBot AI • Learn cloud computing, one question at a time.
+            </p>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+    <script src="script.js?v=2"></script>
+</body>
+</html>

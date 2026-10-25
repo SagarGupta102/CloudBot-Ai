@@ -1,0 +1,63 @@
+
+[
+  {
+    "question": "What is Amazon CloudWatch?",
+    "keywords": ["cloudwatch", "amazon cloudwatch", "aws monitoring"],
+    "answer": "Amazon CloudWatch is an AWS monitoring and observability service. It collects metrics and logs, helps you monitor applications and AWS resources, and lets you create alarms when something needs attention."
+  },
+  {
+    "question": "What is AWS Elastic Beanstalk?",
+    "keywords": ["elastic beanstalk", "aws elastic beanstalk", "beanstalk"],
+    "answer": "AWS Elastic Beanstalk is a service that helps you deploy and manage web applications. You upload your application code, and AWS handles much of the infrastructure setup, including servers, load balancing, and monitoring."
+  },
+  {
+    "question": "What is Amazon EC2?",
+    "keywords": ["amazon ec2", "aws ec2", "ec2", "elastic compute cloud"],
+    "answer": "Amazon EC2 (Elastic Compute Cloud) provides virtual servers in AWS. You can choose computing capacity to run websites, applications, and other workloads, and adjust capacity as your needs change."
+  },
+  {
+    "question": "What is Amazon S3?",
+    "keywords": ["amazon s3", "aws s3", "s3", "simple storage service"],
+    "answer": "Amazon S3 (Simple Storage Service) is an AWS object storage service. It stores files and other data as objects inside buckets. Common uses include backups, images, documents, and application data."
+  },
+  {
+    "question": "What is AWS Lambda?",
+    "keywords": ["aws lambda", "lambda", "serverless computing"],
+    "answer": "AWS Lambda is a serverless compute service that runs your code in response to events. AWS manages the underlying servers, and you generally pay based on the requests and compute time your code uses, subject to applicable pricing and free-tier limits."
+  },
+  {
+    "question": "What is Amazon RDS?",
+    "keywords": ["amazon rds", "aws rds", "rds", "relational database service"],
+    "answer": "Amazon RDS (Relational Database Service) helps you set up, operate, and scale supported relational databases in AWS. It automates many administrative tasks, such as backups and routine maintenance."
+  },
+  {
+    "question": "What is AWS IAM?",
+    "keywords": ["aws iam", "iam", "identity and access management"],
+    "answer": "AWS IAM (Identity and Access Management) helps control who can access AWS resources and what actions they can perform. You can manage identities and permissions using users, roles, policies, and other IAM features."
+  },
+  {
+    "question": "What is cloud computing?",
+    "keywords": ["cloud computing", "definition of cloud computing"],
+    "answer": "Cloud computing is the delivery of computing services such as servers, storage, databases, and software over the internet."
+  },
+  {
+    "question": "What is AWS?",
+    "keywords": ["aws", "amazon web services"],
+    "answer": "Amazon Web Services (AWS) is a cloud platform that offers services for computing, storage, databases, networking, and more."
+  },
+  {
+    "question": "What is cloud storage?",
+    "keywords": ["cloud storage", "online file storage"],
+    "answer": "Cloud storage lets you store and access data on remote servers over the internet instead of relying only on your local computer."
+  },
+  {
+    "question": "What is a virtual machine?",
+    "keywords": ["virtual machine", "virtual machines", "vm"],
+    "answer": "A virtual machine is a software-based computer that runs an operating system and applications using virtualized hardware."
+  },
+  {
+    "question": "What is the difference between IaaS, PaaS, and SaaS?",
+    "keywords": ["iaas", "paas", "saas", "cloud service models"],
+    "answer": "IaaS provides virtualized infrastructure, PaaS provides a platform for building and deploying applications, and SaaS provides ready-to-use software over the internet."
+  }
+]
